@@ -12,12 +12,14 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "dept_emp_junction" (
     "emp_no" INTEGER   NOT NULL,
-    "dept_no" VARCHAR(4)   NOT NULL
+    "dept_no" VARCHAR(4)   NOT NULL,
+	PRIMARY KEY (emp_no,dept_no)
 );
 
 CREATE TABLE "dept_manager_junction" (
     "dept_no" VARCHAR(4)   NOT NULL,
-    "emp_no" INTEGER   NOT NULL
+    "emp_no" INTEGER   NOT NULL,
+	PRIMARY KEY (emp_no,dept_no)
 );
 
 CREATE TABLE "employees" (
@@ -35,7 +37,8 @@ CREATE TABLE "employees" (
 
 CREATE TABLE "salaries" (
     "emp_no" INTEGER   NOT NULL,
-    "salary" INTEGER   NOT NULL
+    "salary" INTEGER   NOT NULL,
+	PRIMARY KEY (emp_no,salary)
 );
 
 CREATE TABLE "titles" (
