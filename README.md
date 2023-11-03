@@ -15,7 +15,7 @@ Using QuickDBD, an Entity Relationship Diagram (ERD) has been sketched to descri
 
 ![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/challenge_9_ERD.png)
 
-The text description behind the sketch can be found in the data folder (_/data/challenge_9_ERD.txt_).
+The text description behind the sketch can be found in the data folder (_/Starter_Code/challenge_9_ERD.txt_).
 
 ## Data Engineering
 The corresponding schema is exported from QuickDBD and is further modified to add the composite keys for the dept_manager_junction table and the dept_emp_junction table prior to the creation of the database tables in PostgreSQL (see _/EmployeeSQL/challenge_9_ERD_schema.sql_).
