@@ -25,20 +25,36 @@ The CSV files are imported to the PostgreSQL via pgAdmin4 in the following order
 The queries for the analysis can be found at _/EmployeeSQL/challenge_9_ERD_Solutions.sql_
 
 1. List the employee number, last name, first name, sex, and salary of each employee. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question1.png)
+</BR>
 
 2. List the first name, last name, and hire date for the employees who were hired in 1986. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question2.png)
+</BR>
 
 3. List the manager of each department along with their department number, department name, employee number, last name, and first name. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question3.png)
+</BR>
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question4.png)
+</BR>
 
 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question5.png)
+</BR>
 
 6. List each employee in the Sales department, including their employee number, last name, and first name. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question6.png)
+</BR>
 
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name. </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question7.png)
+</BR>
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name). </BR>
+![alt text](https://github.com/xoffvsg/sql-challenge/blob/main/Images/question8.png)
+
 
 
 
